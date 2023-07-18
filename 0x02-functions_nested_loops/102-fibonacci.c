@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 /**
@@ -8,6 +9,7 @@
 int main(void)
 
 {
+
 	int i = 0;
 	long j = 1, k = 2;
 
@@ -21,7 +23,7 @@ int main(void)
 	{
 	k += j;
 	j = k - j;
-	printf(", %ld", k)
+	printf(", %ld", k);
 	}
 	++i;
 	}
